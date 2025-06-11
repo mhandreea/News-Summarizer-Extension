@@ -1,0 +1,11 @@
+flask
+flask-cors
+newspaper3k
+nltk
+textblob
+scikit-learn
+numpy
+transformers
+gTTS==2.5.4
+lxml
+lxml_html_clean

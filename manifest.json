@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "News Summarizer",
+  "version": "2.0",
+  "description": "Summarize news articles with AI",
+  "icons": { "128": "icon.png" },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "storage", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
