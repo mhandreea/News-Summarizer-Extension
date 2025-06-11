@@ -1,9 +1,10 @@
 📰 News Summarizer Chrome Extension
 
-Cut through the noise with AI-powered news summaries.
+    My AI-powered News Summarizer Chrome extension delivers instant news summaries with sentiment insights, enabling professionals, students, and busy individuals to consume information faster and act smarter- without sacrificing depth, accuracy or time.
+	Breaks barriers with integrated text-to-speech, ensuring critical knowledge reaches visually impaired users and multitaskers who prefer audio content.
+	 This extension tackles modern challenges like information overload and misinformation by delivering concise, source-backed summaries while providing advanced sentiment analysis and objectivity scoring. Unlike generic tools, News Summarizer adds crucial context by revealing the emotional tone and potential biases in reporting. 
 
-This Chrome extension helps you combat information overload by instantly summarizing articles, analyzing sentiment, and even reading them aloud. Perfect for quick insights without the clutter!
-✨ Features
+-Features
 
     AI-Powered Summarization – Uses BART (NLP) to generate concise summaries.
 
@@ -15,7 +16,7 @@ This Chrome extension helps you combat information overload by instantly summari
 
     Clean Metadata Extraction – Fetches titles, authors, and publish dates via newspaper3k.
 
-🛠 Tech Stack
+-Tech Stack
 
     Backend: Python (Flask API)
 
@@ -25,7 +26,7 @@ This Chrome extension helps you combat information overload by instantly summari
 
     Scraping: newspaper3k for article extraction
 
-🔍 How It Works
+-How It Works
 
     Fetch: Submit a URL → API downloads and cleans the article.
 
